@@ -34,7 +34,7 @@ const SignUp = () => {
         <p>email</p>
         <input id="email" ref={emailInputRef} />
         <p>password</p>
-        <input />
+        <input id="password" ref={pwdInputRef} />
 
         <button>submit</button>
       </form>
